@@ -27,7 +27,7 @@ root.config(bg="SteelBlue3")
 text1 = tk.Label(root, text="Введите Вашу задачу:", bg="SteelBlue3")
 text1.pack(pady=5)
 
-task_entry = tk.Entry(root, width=30, bg="SteelBlue1")
+task_entry = tk.Entry(root, width=35, bg="SteelBlue1")
 task_entry.pack(pady=10)
 
 add_task_button = tk.Button(root, text="Добавить задачу", command=add_task)
